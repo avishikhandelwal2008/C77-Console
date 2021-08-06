@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Console </title>
+</head>
+
+<body>
+    <h1>Open Console</h1>
+    <h1 id="Name"></h1>
+</body>
+<script>
+    console.log ("Hi I am console screen.");
+    var First_Name="Avishi";
+    console.log (First_Name);
+    var Second_Name="Khandelwal";
+    console.log (Second_Name);
+    var Full_Name=First_Name.concat(" "+Second_Name);
+    console.log (Full_Name);
+    document.getElementById("Name").innerHTML=Full_Name;
+    var len=Full_Name.length;
+    console.log (len);
+    var Capital_Name="PAWAN";
+    var Lower_Case=Capital_Name.toLowerCase();
+    console.log (Lower_Case);
+    var Max_No=Math.max(54,99);
+    console.log (Max_No);
+    var Min_No=Math.min(54,99);
+    console.log (Min_No);
+    var Square_Root=Math.sqrt(64);
+    console.log (Square_Root);
+    var Power=Math.pow(12,2);
+    console.log (Power);
+    var Big_No=3.14159;
+    console.log (Big_No);
+    var ToFix=Big_No.toFixed(2);
+    console.log(ToFix);
+</script>
+</html>
